@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/form_input_icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="login_page">
+        <div class="form">
+            <form class="register_form" id="register_form">
+                <input type="text" placeholder="user name" required>
+                <input type="email" placeholder="email id" required>
+                <input type="password" placeholder="password" minlength="10" required>
+                <button type="submit">create</button>
+                <p class="message" id="registered">Already registered ? <a href="#">Login</a></p>
+            </form>
+
+            <form class="login_form" id="login_form">
+                <input type="text" placeholder="user name" required>
+                <input type="password" placeholder="password" minlength="10" required>
+                <button>login</button>
+                <p class="message" id="register">Not Registered ? <a href="#">Register</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
